@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0f"/>
+      <stop offset="0.415" stop-color="#f212fc"/>
+      <stop offset="0.736" stop-color="#86a8e7"/>
+      <stop offset="1" stop-color="#5ffbf1"/>
+    </radialGradient>
+    <filter id="Rectangle_2" x="1160" y="726" width="154" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3">
+      <feOffset dx="9" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4" x="821" y="726" width="154" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="995" y="726" width="154" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6" x="655" y="726" width="154" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-to-do-list">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="to-do-list" clip-path="url(#clip-to-do-list)">
+    <rect width="1920" height="1080" fill="url(#radial-gradient)"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(658 149)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="630" height="399" rx="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="629" height="398" rx="47.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_2)">
+      <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(1163 730)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="136" height="57" stroke="none"/>
+        <rect x="0.5" y="0.5" width="135" height="56" fill="none"/>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="641" height="82" rx="41" transform="translate(658 598)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3)">
+        <rect id="Rectangle_3-3" data-name="Rectangle 3" width="641" height="82" rx="41" transform="translate(658 598)" fill="#fff"/>
+      </g>
+      <g id="Rectangle_3-4" data-name="Rectangle 3" transform="translate(658 598)" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="641" height="82" rx="41" stroke="none"/>
+        <rect x="0.5" y="0.5" width="640" height="81" rx="40.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_4)">
+      <g id="Rectangle_4-2" data-name="Rectangle 4" transform="translate(824 730)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="136" height="57" stroke="none"/>
+        <rect x="0.5" y="0.5" width="135" height="56" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1)">
+      <g id="Path_1-2" data-name="Path 1" transform="translate(998 730)" fill="#fff">
+        <path d="M 135.5 56.5 L 0.5 56.5 L 0.5 0.5 L 135.5 0.5 L 135.5 56.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 56 L 135 56 L 135 1 L 1 1 M 0 0 L 136 0 L 136 57 L 0 57 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_6)">
+      <g id="Rectangle_6-2" data-name="Rectangle 6" transform="translate(658 730)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="136" height="57" stroke="none"/>
+        <rect x="0.5" y="0.5" width="135" height="56" fill="none"/>
+      </g>
+    </g>
+    <text id="DELETE" transform="translate(1177 762)" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DELETE</tspan></text>
+    <text id="FIND" transform="translate(1033 762)" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">FIND</tspan></text>
+    <text id="UPDATE" transform="translate(839 779)" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">UPDATE</tspan></text>
+    <text id="ADD" transform="translate(696 770)" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ADD</tspan></text>
+  </g>
+</svg>
